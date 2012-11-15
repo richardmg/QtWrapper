@@ -11,11 +11,28 @@
 		79AB6039165533BA00F87E48 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79AB6038165533BA00F87E48 /* Foundation.framework */; };
 		79AB603B165533BA00F87E48 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79AB603A165533BA00F87E48 /* CoreGraphics.framework */; };
 		79AB6041165533BA00F87E48 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 79AB603F165533BA00F87E48 /* InfoPlist.strings */; };
-		79AB6043165533BA00F87E48 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 79AB6042165533BA00F87E48 /* main.m */; };
 		79AB6047165533BA00F87E48 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 79AB6046165533BA00F87E48 /* AppDelegate.m */; };
 		79AB6049165533BA00F87E48 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 79AB6048165533BA00F87E48 /* Default.png */; };
 		79AB604B165533BA00F87E48 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 79AB604A165533BA00F87E48 /* Default@2x.png */; };
 		79AB604D165533BA00F87E48 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 79AB604C165533BA00F87E48 /* Default-568h@2x.png */; };
+		79AB6054165533FE00F87E48 /* libm.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 79AB6053165533FE00F87E48 /* libm.dylib */; };
+		79AB60561655340400F87E48 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 79AB60551655340400F87E48 /* libz.dylib */; };
+		79AB60581655341100F87E48 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79AB60571655341100F87E48 /* OpenGLES.framework */; };
+		79AB605B1655342900F87E48 /* libqios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 79AB60591655342900F87E48 /* libqios.a */; };
+		79AB605C1655342900F87E48 /* libqiosmain.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 79AB605A1655342900F87E48 /* libqiosmain.a */; };
+		79AB60641655345000F87E48 /* libQt5Core.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 79AB605D1655345000F87E48 /* libQt5Core.a */; };
+		79AB60651655345000F87E48 /* libQt5Declarative.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 79AB605E1655345000F87E48 /* libQt5Declarative.a */; };
+		79AB60661655345000F87E48 /* libQt5Gui.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 79AB605F1655345000F87E48 /* libQt5Gui.a */; };
+		79AB60671655345000F87E48 /* libQt5Network.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 79AB60601655345000F87E48 /* libQt5Network.a */; };
+		79AB60681655345000F87E48 /* libQt5Script.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 79AB60611655345000F87E48 /* libQt5Script.a */; };
+		79AB60691655345000F87E48 /* libQt5Sql.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 79AB60621655345000F87E48 /* libQt5Sql.a */; };
+		79AB606A1655345000F87E48 /* libQt5Widgets.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 79AB60631655345000F87E48 /* libQt5Widgets.a */; };
+		79AB606C1655349800F87E48 /* libopenfly.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 79AB606B1655349800F87E48 /* libopenfly.a */; };
+		79AB606E165535EA00F87E48 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79AB606D165535EA00F87E48 /* QuartzCore.framework */; };
+		79AB60721655364B00F87E48 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79AB60711655364B00F87E48 /* CoreText.framework */; };
+		79AB6074165536AE00F87E48 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79AB6073165536AE00F87E48 /* CoreFoundation.framework */; };
+		79AB60761655371300F87E48 /* libstdc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 79AB60751655371300F87E48 /* libstdc++.dylib */; };
+		79AB60771655374400F87E48 /* libQt5PlatformSupport.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 79AB606F1655362800F87E48 /* libQt5PlatformSupport.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,13 +42,30 @@
 		79AB603A165533BA00F87E48 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		79AB603E165533BA00F87E48 /* QtWrapper-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "QtWrapper-Info.plist"; sourceTree = "<group>"; };
 		79AB6040165533BA00F87E48 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		79AB6042165533BA00F87E48 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		79AB6044165533BA00F87E48 /* QtWrapper-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "QtWrapper-Prefix.pch"; sourceTree = "<group>"; };
 		79AB6045165533BA00F87E48 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		79AB6046165533BA00F87E48 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		79AB6048165533BA00F87E48 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		79AB604A165533BA00F87E48 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		79AB604C165533BA00F87E48 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		79AB6053165533FE00F87E48 /* libm.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libm.dylib; path = usr/lib/libm.dylib; sourceTree = SDKROOT; };
+		79AB60551655340400F87E48 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		79AB60571655341100F87E48 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		79AB60591655342900F87E48 /* libqios.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libqios.a; path = "../../../qt-shadowbuilds/qt-base-ios-device/plugins/platforms/libqios.a"; sourceTree = "<group>"; };
+		79AB605A1655342900F87E48 /* libqiosmain.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libqiosmain.a; path = "../../../qt-shadowbuilds/qt-base-ios-device/plugins/platforms/libqiosmain.a"; sourceTree = "<group>"; };
+		79AB605D1655345000F87E48 /* libQt5Core.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libQt5Core.a; path = "../../../qt-shadowbuilds/qt-base-ios-device/lib/libQt5Core.a"; sourceTree = "<group>"; };
+		79AB605E1655345000F87E48 /* libQt5Declarative.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libQt5Declarative.a; path = "../../../qt-shadowbuilds/qt-base-ios-device/lib/libQt5Declarative.a"; sourceTree = "<group>"; };
+		79AB605F1655345000F87E48 /* libQt5Gui.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libQt5Gui.a; path = "../../../qt-shadowbuilds/qt-base-ios-device/lib/libQt5Gui.a"; sourceTree = "<group>"; };
+		79AB60601655345000F87E48 /* libQt5Network.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libQt5Network.a; path = "../../../qt-shadowbuilds/qt-base-ios-device/lib/libQt5Network.a"; sourceTree = "<group>"; };
+		79AB60611655345000F87E48 /* libQt5Script.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libQt5Script.a; path = "../../../qt-shadowbuilds/qt-base-ios-device/lib/libQt5Script.a"; sourceTree = "<group>"; };
+		79AB60621655345000F87E48 /* libQt5Sql.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libQt5Sql.a; path = "../../../qt-shadowbuilds/qt-base-ios-device/lib/libQt5Sql.a"; sourceTree = "<group>"; };
+		79AB60631655345000F87E48 /* libQt5Widgets.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libQt5Widgets.a; path = "../../../qt-shadowbuilds/qt-base-ios-device/lib/libQt5Widgets.a"; sourceTree = "<group>"; };
+		79AB606B1655349800F87E48 /* libopenfly.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libopenfly.a; path = ../../../public/OpenFly_build/libopenfly.a; sourceTree = "<group>"; };
+		79AB606D165535EA00F87E48 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		79AB606F1655362800F87E48 /* libQt5PlatformSupport.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libQt5PlatformSupport.a; path = "../../../qt-shadowbuilds/qt-base-ios-device/lib/libQt5PlatformSupport.a"; sourceTree = "<group>"; };
+		79AB60711655364B00F87E48 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		79AB6073165536AE00F87E48 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		79AB60751655371300F87E48 /* libstdc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libstdc++.dylib"; path = "usr/lib/libstdc++.dylib"; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,9 +73,27 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				79AB60771655374400F87E48 /* libQt5PlatformSupport.a in Frameworks */,
+				79AB60761655371300F87E48 /* libstdc++.dylib in Frameworks */,
+				79AB606C1655349800F87E48 /* libopenfly.a in Frameworks */,
+				79AB60641655345000F87E48 /* libQt5Core.a in Frameworks */,
+				79AB60651655345000F87E48 /* libQt5Declarative.a in Frameworks */,
+				79AB60661655345000F87E48 /* libQt5Gui.a in Frameworks */,
+				79AB60671655345000F87E48 /* libQt5Network.a in Frameworks */,
+				79AB60681655345000F87E48 /* libQt5Script.a in Frameworks */,
+				79AB60691655345000F87E48 /* libQt5Sql.a in Frameworks */,
+				79AB606A1655345000F87E48 /* libQt5Widgets.a in Frameworks */,
+				79AB605B1655342900F87E48 /* libqios.a in Frameworks */,
+				79AB605C1655342900F87E48 /* libqiosmain.a in Frameworks */,
+				79AB60561655340400F87E48 /* libz.dylib in Frameworks */,
+				79AB6054165533FE00F87E48 /* libm.dylib in Frameworks */,
+				79AB6074165536AE00F87E48 /* CoreFoundation.framework in Frameworks */,
+				79AB60581655341100F87E48 /* OpenGLES.framework in Frameworks */,
+				79AB603B165533BA00F87E48 /* CoreGraphics.framework in Frameworks */,
+				79AB60721655364B00F87E48 /* CoreText.framework in Frameworks */,
+				79AB606E165535EA00F87E48 /* QuartzCore.framework in Frameworks */,
 				79AB6037165533BA00F87E48 /* UIKit.framework in Frameworks */,
 				79AB6039165533BA00F87E48 /* Foundation.framework in Frameworks */,
-				79AB603B165533BA00F87E48 /* CoreGraphics.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -51,6 +103,24 @@
 		79AB6027165533B900F87E48 = {
 			isa = PBXGroup;
 			children = (
+				79AB60751655371300F87E48 /* libstdc++.dylib */,
+				79AB6073165536AE00F87E48 /* CoreFoundation.framework */,
+				79AB60711655364B00F87E48 /* CoreText.framework */,
+				79AB606F1655362800F87E48 /* libQt5PlatformSupport.a */,
+				79AB606D165535EA00F87E48 /* QuartzCore.framework */,
+				79AB606B1655349800F87E48 /* libopenfly.a */,
+				79AB605D1655345000F87E48 /* libQt5Core.a */,
+				79AB605E1655345000F87E48 /* libQt5Declarative.a */,
+				79AB605F1655345000F87E48 /* libQt5Gui.a */,
+				79AB60601655345000F87E48 /* libQt5Network.a */,
+				79AB60611655345000F87E48 /* libQt5Script.a */,
+				79AB60621655345000F87E48 /* libQt5Sql.a */,
+				79AB60631655345000F87E48 /* libQt5Widgets.a */,
+				79AB60591655342900F87E48 /* libqios.a */,
+				79AB605A1655342900F87E48 /* libqiosmain.a */,
+				79AB60571655341100F87E48 /* OpenGLES.framework */,
+				79AB60551655340400F87E48 /* libz.dylib */,
+				79AB6053165533FE00F87E48 /* libm.dylib */,
 				79AB603C165533BA00F87E48 /* QtWrapper */,
 				79AB6035165533BA00F87E48 /* Frameworks */,
 				79AB6033165533BA00F87E48 /* Products */,
@@ -90,7 +160,6 @@
 			children = (
 				79AB603E165533BA00F87E48 /* QtWrapper-Info.plist */,
 				79AB603F165533BA00F87E48 /* InfoPlist.strings */,
-				79AB6042165533BA00F87E48 /* main.m */,
 				79AB6044165533BA00F87E48 /* QtWrapper-Prefix.pch */,
 				79AB6048165533BA00F87E48 /* Default.png */,
 				79AB604A165533BA00F87E48 /* Default@2x.png */,
@@ -164,7 +233,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				79AB6043165533BA00F87E48 /* main.m in Sources */,
 				79AB6047165533BA00F87E48 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -205,8 +273,13 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_LDFLAGS = (
+					"-headerpad_max_install_names",
+					"-all_load",
+				);
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = 2;
+				VALID_ARCHS = armv7;
 			};
 			name = Debug;
 		};
@@ -226,9 +299,14 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				OTHER_LDFLAGS = (
+					"-headerpad_max_install_names",
+					"-all_load",
+				);
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = 2;
 				VALIDATE_PRODUCT = YES;
+				VALID_ARCHS = armv7;
 			};
 			name = Release;
 		};
@@ -238,6 +316,12 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "QtWrapper/QtWrapper-Prefix.pch";
 				INFOPLIST_FILE = "QtWrapper/QtWrapper-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../../qt-shadowbuilds/qt-base-ios-device/plugins/platforms\"",
+					"\"$(SRCROOT)/../../../qt-shadowbuilds/qt-base-ios-device/lib\"",
+					"\"$(SRCROOT)/../../../public/OpenFly_build\"",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -249,6 +333,12 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "QtWrapper/QtWrapper-Prefix.pch";
 				INFOPLIST_FILE = "QtWrapper/QtWrapper-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../../qt-shadowbuilds/qt-base-ios-device/plugins/platforms\"",
+					"\"$(SRCROOT)/../../../qt-shadowbuilds/qt-base-ios-device/lib\"",
+					"\"$(SRCROOT)/../../../public/OpenFly_build\"",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
